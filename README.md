@@ -8,4 +8,5 @@ Lab 3.2 - Amazon SageMaker - Exploring Data
 完成 Lab 3.3 及 Lab 3.4 - Amazon SageMaker - Encoding Categorical Data - Amazo
 <img width="1615" height="908" alt="1793138726_image(1)" src="https://github.com/user-attachments/assets/610281fd-a66c-47fb-a845-dba82cb2425e" />
 <img width="1589" height="881" alt="1793138737_image(2)" src="https://github.com/user-attachments/assets/800a469a-44bb-4425-9efc-2481580c79aa" />
-
+Lab 3.5 Amazon SageMaker - Deploying a model
+<img width="1850" height="925" alt="1793168137_image(3)" src="https://github.com/user-attachments/assets/a959469c-a051-446e-b70d-e901e75caf69" />
