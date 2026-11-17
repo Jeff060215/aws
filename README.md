@@ -16,3 +16,24 @@ Lab 3.7 - Amazon SageMaker - Hyperparameter Tuning
 <img width="1356" height="913" alt="1794383520_image(5)" src="https://github.com/user-attachments/assets/0e7f1709-af75-4bc9-a4d3-40556f2313a1" />
 完成 Module 3 Knowledge Check
 <img width="1409" height="876" alt="1794383571_image(6)" src="https://github.com/user-attachments/assets/1797cb42-a9bd-4b4b-b195-88377e8b690a" />
+Challenge lab
+<img width="1339" height="873" alt="1794921600_image(7)" src="https://github.com/user-attachments/assets/af304071-98f2-4fd3-a2a6-6f51a5fdcab4" />
+# Hyperparameter Tuning Impact:
+# Yes, tuning hyperparameters (such as max_depth, eta, subsample, and min_child_weight) using SageMaker HPO improved the model's ROC-AUC and overall generalization compared to the default XGBoost settings.
+
+# 1. Did your model performance meet your business goal? If not, what would you do differently with more time?
+# The final XGBoost model with HPO achieved a much better balance between Precision and Recall, moving closer to our business goal of predicting flight delays. With more time, I would address class imbalance using techniques like SMOTE or scale_pos_weight, incorporate real-time hourly weather forecasts, and test ensemble stacking methods.
+
+# 2. How much did your model performance improve after modifying the dataset, features, and hyperparameters? Which techniques had the greatest impact?
+# Performance improved steadily across iterations—from the baseline LinearLearner (~0.60 ROC-AUC) to adding holiday/weather features, switching to XGBoost, and finally running HPO (~0.70+ ROC-AUC). Switching to a tree-based model (XGBoost) and performing feature engineering (adding weather and temporal features) had the greatest impact on performance.
+
+# 3. What were the biggest challenges you encountered in this project?
+# The biggest challenges were handling the large multi-year dataset (merging files and managing memory), dealing with severe class imbalance (80% on-time vs. 20% delayed), and imputing missing weather station records accurately.
+
+# 4. Are there any aspects of the pipeline that remain unclear to you?
+# The end-to-end ML pipeline is clear, though fine-tuning the exact probability threshold for different business cost trade-offs and optimizing distributed HPO resource limits in production would benefit from further practice.
+
+# 5. What are the three most important things you learned about machine learning during this project?
+# 1) Data quality and domain-specific feature engineering matter more than the algorithm alone.
+# 2) Machine learning is an iterative process of building a baseline, evaluating errors, and refining features and models.
+# 3) Selecting the right evaluation metric (such as Recall and ROC-AUC instead of just Accuracy) is critical when working with imbalanced real-world datasets.
