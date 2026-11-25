@@ -37,4 +37,7 @@ Challenge lab
 # 1) Data quality and domain-specific feature engineering matter more than the algorithm alone.
 # 2) Machine learning is an iterative process of building a baseline, evaluating errors, and refining features and models.
 # 3) Selecting the right evaluation metric (such as Recall and ROC-AUC instead of just Accuracy) is critical when working with imbalanced real-world datasets.
+完成 Module 5 Knowledge Check
+<img width="1464" height="802" alt="1795593135_image(9)" src="https://github.com/user-attachments/assets/1b6f210e-0c2b-4485-a438-09dc72a45cb1" />
+lab 5
 <img width="1426" height="842" alt="image" src="https://github.com/user-attachments/assets/b89445df-fd20-4cf1-992e-df8224158b2b" />
