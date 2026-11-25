@@ -41,3 +41,5 @@ Challenge lab
 <img width="1464" height="802" alt="1795593135_image(9)" src="https://github.com/user-attachments/assets/1b6f210e-0c2b-4485-a438-09dc72a45cb1" />
 lab 5
 <img width="1426" height="842" alt="image" src="https://github.com/user-attachments/assets/b89445df-fd20-4cf1-992e-df8224158b2b" />
+完成 Module 6 Knowledge Check
+<img width="1460" height="761" alt="image" src="https://github.com/user-attachments/assets/60a661f7-dec2-4d15-ba5e-862ed4464f39" />
